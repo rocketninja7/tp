@@ -1,7 +1,6 @@
 package seedu.address.model.person;
 
 import static java.util.Objects.requireNonNull;
-import static seedu.address.commons.util.AppUtil.checkArgument;
 
 /**
  * Represents a Person's remark in the address book.
@@ -15,6 +14,9 @@ public class Remark {
 
     public final String value;
 
+    /**
+     * Constructs a default {@code Remark}.
+     */
     public Remark() {
         this(DEFAULT_REMARK);
     }
